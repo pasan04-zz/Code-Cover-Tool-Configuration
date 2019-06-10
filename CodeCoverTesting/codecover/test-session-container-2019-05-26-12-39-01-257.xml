@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1558854541200" TestSessionContainerId="dd379f20-01ca-48db-98c3-9639d289870e" version="1.0">
+<SrcFileList>
+<SrcFile Content="package controller;&#13;&#10;&#13;&#10;import model.User;&#13;&#10;&#13;&#10;public class UserController {&#13;&#10;&#9;&#13;&#10;&#9;public UserController() {&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public static void main(String[] args) {&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;User user = new User();&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;user.setName(&quot;Kamal&quot;);&#13;&#10;&#9;&#9;user.setAddress(&quot;Colombo&quot;);&#13;&#10;&#9;&#9;user.setAge(23);&#13;&#10;&#9;&#9;user.setUniversity(&quot;SLIIT&quot;);&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;System.out.println(user.getName());&#13;&#10;&#9;&#9;System.out.println(user.getAddress());&#13;&#10;&#9;&#9;System.out.println(user.getAge());&#13;&#10;&#9;&#9;System.out.println(user.getUniversity());&#13;&#10;&#9;&#9;&#13;&#10;&#9;}&#13;&#10;&#13;&#10;}&#13;&#10;" Filename="UserController.java" Intrnl_Id="1"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.QMOCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.SynchronizedStatementCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList/>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="package" IntrnlName="package" Intrnl_Id="2"/>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="3"/>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="4"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="5"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="53" HierarchyLvlTypeId="5" Intrnl_Id="6" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="52" HierarchyLvlTypeId="2" Intrnl_Id="7" Name="controller">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="51" HierarchyLvlTypeId="4" Intrnl_Id="8" Name="UserController">
+<Header>
+<Loc EndOffset="72" SrcFileId="1" StartOffset="45"/>
+</Header>
+<LocList>
+<Loc EndOffset="496" SrcFileId="1" StartOffset="45"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="49" HierarchyLvlTypeId="3" Intrnl_Id="9" Name="UserController">
+<Header>
+<Loc EndOffset="103" SrcFileId="1" StartOffset="80"/>
+</Header>
+<LocList>
+<Loc EndOffset="117" SrcFileId="1" StartOffset="80"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="50" HierarchyLvlTypeId="3" Intrnl_Id="10" Name="main">
+<Header>
+<Loc EndOffset="161" SrcFileId="1" StartOffset="123"/>
+</Header>
+<LocList>
+<Loc EndOffset="491" SrcFileId="1" StartOffset="123"/>
+</LocList>
+<StmntSeq Intrnl_Id="11">
+<LocList>
+<Loc EndOffset="198" SrcFileId="1" StartOffset="175"/>
+<Loc EndOffset="228" SrcFileId="1" StartOffset="206"/>
+<Loc EndOffset="259" SrcFileId="1" StartOffset="232"/>
+<Loc EndOffset="279" SrcFileId="1" StartOffset="263"/>
+<Loc EndOffset="311" SrcFileId="1" StartOffset="283"/>
+<Loc EndOffset="358" SrcFileId="1" StartOffset="323"/>
+<Loc EndOffset="400" SrcFileId="1" StartOffset="362"/>
+<Loc EndOffset="438" SrcFileId="1" StartOffset="404"/>
+<Loc EndOffset="483" SrcFileId="1" StartOffset="442"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="controller.UserController.java" Intrnl_Id="12">
+<LocList>
+<Loc EndOffset="198" SrcFileId="1" StartOffset="175"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S2" CovItemPrefix="controller.UserController.java" Intrnl_Id="13">
+<LocList>
+<Loc EndOffset="228" SrcFileId="1" StartOffset="206"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S3" CovItemPrefix="controller.UserController.java" Intrnl_Id="14">
+<LocList>
+<Loc EndOffset="259" SrcFileId="1" StartOffset="232"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S4" CovItemPrefix="controller.UserController.java" Intrnl_Id="15">
+<LocList>
+<Loc EndOffset="279" SrcFileId="1" StartOffset="263"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S5" CovItemPrefix="controller.UserController.java" Intrnl_Id="16">
+<LocList>
+<Loc EndOffset="311" SrcFileId="1" StartOffset="283"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S6" CovItemPrefix="controller.UserController.java" Intrnl_Id="17">
+<LocList>
+<Loc EndOffset="358" SrcFileId="1" StartOffset="323"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S7" CovItemPrefix="controller.UserController.java" Intrnl_Id="18">
+<LocList>
+<Loc EndOffset="400" SrcFileId="1" StartOffset="362"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S8" CovItemPrefix="controller.UserController.java" Intrnl_Id="19">
+<LocList>
+<Loc EndOffset="438" SrcFileId="1" StartOffset="404"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S9" CovItemPrefix="controller.UserController.java" Intrnl_Id="20">
+<LocList>
+<Loc EndOffset="483" SrcFileId="1" StartOffset="442"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+</TestSessionContainer>

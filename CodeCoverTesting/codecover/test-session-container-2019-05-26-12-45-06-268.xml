@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1558854906219" TestSessionContainerId="ef6baa98-8c96-465c-b0e9-79e4cac38f80" version="1.0">
+<SrcFileList>
+<SrcFile Content="package codecover;&#13;&#10;&#13;&#10;public class StartPattern {&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#9;public static void main(String[] args) {&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;for(int i=0;i&lt;10; i++) {&#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;for(int j =0 ;j&lt;=10 ;j++) {&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#9;System.out.print(&quot;*&quot;);&#13;&#10;&#9;&#9;&#9;}&#13;&#10;&#9;&#9;&#9;System.out.println(&quot; &quot;);&#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;}&#13;&#10;&#9;}&#13;&#10;&#13;&#10;}&#13;&#10;" Filename="StartPattern.java" Intrnl_Id="1"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.QMOCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.SynchronizedStatementCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList/>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="package" IntrnlName="package" Intrnl_Id="2"/>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="3"/>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="4"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="5"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="63" HierarchyLvlTypeId="5" Intrnl_Id="6" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="62" HierarchyLvlTypeId="2" Intrnl_Id="7" Name="codecover">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="61" HierarchyLvlTypeId="4" Intrnl_Id="8" Name="StartPattern">
+<Header>
+<Loc EndOffset="47" SrcFileId="1" StartOffset="22"/>
+</Header>
+<LocList>
+<Loc EndOffset="265" SrcFileId="1" StartOffset="22"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="60" HierarchyLvlTypeId="3" Intrnl_Id="9" Name="main">
+<Header>
+<Loc EndOffset="96" SrcFileId="1" StartOffset="58"/>
+</Header>
+<LocList>
+<Loc EndOffset="260" SrcFileId="1" StartOffset="58"/>
+</LocList>
+<StmntSeq Intrnl_Id="10">
+<LocList>
+<Loc EndOffset="256" SrcFileId="1" StartOffset="110"/>
+</LocList>
+<LoopStmnt CovItemId="S1" CovItemPrefix="codecover.StartPattern.java" Intrnl_Id="11" MltplExecId="L1-2" MltplExecPrefix="codecover.StartPattern.java" NvrExecId="L1-0" NvrExecPrefix="codecover.StartPattern.java" OnceExecutedId="L1-1" OnceExecutedPrefix="codecover.StartPattern.java" OptBodyExec="true">
+<StmntSeq Intrnl_Id="12">
+<LocList>
+<Loc EndOffset="217" SrcFileId="1" StartOffset="144"/>
+<Loc EndOffset="246" SrcFileId="1" StartOffset="222"/>
+</LocList>
+<LoopStmnt CovItemId="S2" CovItemPrefix="codecover.StartPattern.java" Intrnl_Id="13" MltplExecId="L2-2" MltplExecPrefix="codecover.StartPattern.java" NvrExecId="L2-0" NvrExecPrefix="codecover.StartPattern.java" OnceExecutedId="L2-1" OnceExecutedPrefix="codecover.StartPattern.java" OptBodyExec="true">
+<StmntSeq Intrnl_Id="14">
+<LocList>
+<Loc EndOffset="211" SrcFileId="1" StartOffset="189"/>
+</LocList>
+<BasicStmnt CovItemId="S3" CovItemPrefix="codecover.StartPattern.java" Intrnl_Id="15">
+<LocList>
+<Loc EndOffset="211" SrcFileId="1" StartOffset="189"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+<Keyword EndOffset="147" SrcFileId="1" StartOffset="144"/>
+<LocList>
+<Loc EndOffset="217" SrcFileId="1" StartOffset="144"/>
+</LocList>
+<RootTerm CovItemId="C2" CovItemPrefix="codecover.StartPattern.java" Intrnl_Id="16">
+<BasicBoolTerm Intrnl_Id="17">
+<LocList>
+<Loc EndOffset="163" SrcFileId="1" StartOffset="158"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</LoopStmnt>
+<BasicStmnt CovItemId="S4" CovItemPrefix="codecover.StartPattern.java" Intrnl_Id="18">
+<LocList>
+<Loc EndOffset="246" SrcFileId="1" StartOffset="222"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+<Keyword EndOffset="113" SrcFileId="1" StartOffset="110"/>
+<LocList>
+<Loc EndOffset="256" SrcFileId="1" StartOffset="110"/>
+</LocList>
+<RootTerm CovItemId="C1" CovItemPrefix="codecover.StartPattern.java" Intrnl_Id="19">
+<BasicBoolTerm Intrnl_Id="20">
+<LocList>
+<Loc EndOffset="126" SrcFileId="1" StartOffset="122"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</LoopStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+</TestSessionContainer>

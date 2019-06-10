@@ -1,0 +1,25 @@
+package controller;
+
+import model.User;
+
+public class UserController {
+	
+	public static void main(String[] args) {
+		
+		
+		User user = new User();
+		
+		user.setName("Kamal");
+		user.setAddress("Colombo");
+		user.setAge(23);
+		user.setUniversity("SLIIT");
+		
+		
+		System.out.println(user.getName());
+		System.out.println(user.getAddress());
+		System.out.println(user.getAge());
+		System.out.println(user.getUniversity());
+		
+	}
+
+}

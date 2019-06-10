@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1558846127108" TestSessionContainerId="b40476b5-9e3f-440c-abac-b8949c6455c4" version="1.0">
+<SrcFileList>
+<SrcFile Content="package controller;&#13;&#10;&#13;&#10;import model.User;&#13;&#10;&#13;&#10;public class UserController {&#13;&#10;&#9;&#13;&#10;&#9;public UserController() {&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public static void main(String[] args) {&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;User user = new User();&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;user.setName(&quot;Kamal&quot;);&#13;&#10;&#9;&#9;user.setAddress(&quot;Colombo&quot;);&#13;&#10;&#9;&#9;user.setAge(23);&#13;&#10;&#9;&#9;user.setUniversity(&quot;SLIIT&quot;);&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;System.out.println(user.getName());&#13;&#10;&#9;&#9;System.out.println(user.getAddress());&#13;&#10;&#9;&#9;System.out.println(user.getAge());&#13;&#10;&#9;&#9;System.out.println(user.getUniversity());&#13;&#10;&#9;&#9;&#13;&#10;&#9;}&#13;&#10;&#13;&#10;}&#13;&#10;" Filename="UserController.java" Intrnl_Id="1"/>
+<SrcFile Content="package model;&#13;&#10;&#13;&#10;public class User {&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#9;public String name;&#13;&#10;&#9;public String address;&#13;&#10;&#9;public int age;&#13;&#10;&#9;public String university;&#13;&#10;&#9;&#13;&#10;&#9;public User() {&#13;&#10;&#9;&#9;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public String getName() {&#13;&#10;&#9;&#9;return name;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public void setName(String name) {&#13;&#10;&#9;&#9;this.name = name;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public String getAddress() {&#13;&#10;&#9;&#9;return address;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public void setAddress(String address) {&#13;&#10;&#9;&#9;this.address = address;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public int getAge() {&#13;&#10;&#9;&#9;return age;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public void setAge(int age) {&#13;&#10;&#9;&#9;this.age = age;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public String getUniversity() {&#13;&#10;&#9;&#9;return university;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;public void setUniversity(String university) {&#13;&#10;&#9;&#9;this.university = university;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#13;&#10;}&#13;&#10;" Filename="User.java" Intrnl_Id="2"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.QMOCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.SynchronizedStatementCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList/>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="package" IntrnlName="package" Intrnl_Id="3"/>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="4"/>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="5"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="6"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="48" HierarchyLvlTypeId="6" Intrnl_Id="7" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="46" HierarchyLvlTypeId="3" Intrnl_Id="8" Name="controller">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="35" HierarchyLvlTypeId="5" Intrnl_Id="9" Name="UserController">
+<Header>
+<Loc EndOffset="72" SrcFileId="1" StartOffset="45"/>
+</Header>
+<LocList>
+<Loc EndOffset="496" SrcFileId="1" StartOffset="45"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="33" HierarchyLvlTypeId="4" Intrnl_Id="10" Name="UserController">
+<Header>
+<Loc EndOffset="103" SrcFileId="1" StartOffset="80"/>
+</Header>
+<LocList>
+<Loc EndOffset="117" SrcFileId="1" StartOffset="80"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="34" HierarchyLvlTypeId="4" Intrnl_Id="11" Name="main">
+<Header>
+<Loc EndOffset="161" SrcFileId="1" StartOffset="123"/>
+</Header>
+<LocList>
+<Loc EndOffset="491" SrcFileId="1" StartOffset="123"/>
+</LocList>
+<StmntSeq Intrnl_Id="12">
+<LocList>
+<Loc EndOffset="198" SrcFileId="1" StartOffset="175"/>
+<Loc EndOffset="228" SrcFileId="1" StartOffset="206"/>
+<Loc EndOffset="259" SrcFileId="1" StartOffset="232"/>
+<Loc EndOffset="279" SrcFileId="1" StartOffset="263"/>
+<Loc EndOffset="311" SrcFileId="1" StartOffset="283"/>
+<Loc EndOffset="358" SrcFileId="1" StartOffset="323"/>
+<Loc EndOffset="400" SrcFileId="1" StartOffset="362"/>
+<Loc EndOffset="438" SrcFileId="1" StartOffset="404"/>
+<Loc EndOffset="483" SrcFileId="1" StartOffset="442"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="controller.UserController.java" Intrnl_Id="13">
+<LocList>
+<Loc EndOffset="198" SrcFileId="1" StartOffset="175"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S2" CovItemPrefix="controller.UserController.java" Intrnl_Id="14">
+<LocList>
+<Loc EndOffset="228" SrcFileId="1" StartOffset="206"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S3" CovItemPrefix="controller.UserController.java" Intrnl_Id="15">
+<LocList>
+<Loc EndOffset="259" SrcFileId="1" StartOffset="232"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S4" CovItemPrefix="controller.UserController.java" Intrnl_Id="16">
+<LocList>
+<Loc EndOffset="279" SrcFileId="1" StartOffset="263"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S5" CovItemPrefix="controller.UserController.java" Intrnl_Id="17">
+<LocList>
+<Loc EndOffset="311" SrcFileId="1" StartOffset="283"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S6" CovItemPrefix="controller.UserController.java" Intrnl_Id="18">
+<LocList>
+<Loc EndOffset="358" SrcFileId="1" StartOffset="323"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S7" CovItemPrefix="controller.UserController.java" Intrnl_Id="19">
+<LocList>
+<Loc EndOffset="400" SrcFileId="1" StartOffset="362"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S8" CovItemPrefix="controller.UserController.java" Intrnl_Id="20">
+<LocList>
+<Loc EndOffset="438" SrcFileId="1" StartOffset="404"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S9" CovItemPrefix="controller.UserController.java" Intrnl_Id="21">
+<LocList>
+<Loc EndOffset="483" SrcFileId="1" StartOffset="442"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="47" HierarchyLvlTypeId="3" Intrnl_Id="22" Name="model">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="45" HierarchyLvlTypeId="5" Intrnl_Id="23" Name="User">
+<Header>
+<Loc EndOffset="35" SrcFileId="2" StartOffset="18"/>
+</Header>
+<LocList>
+<Loc EndOffset="679" SrcFileId="2" StartOffset="18"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="36" HierarchyLvlTypeId="4" Intrnl_Id="24" Name="User">
+<Header>
+<Loc EndOffset="155" SrcFileId="2" StartOffset="142"/>
+</Header>
+<LocList>
+<Loc EndOffset="165" SrcFileId="2" StartOffset="142"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="37" HierarchyLvlTypeId="4" Intrnl_Id="25" Name="getName">
+<Header>
+<Loc EndOffset="194" SrcFileId="2" StartOffset="171"/>
+</Header>
+<LocList>
+<Loc EndOffset="216" SrcFileId="2" StartOffset="171"/>
+</LocList>
+<StmntSeq Intrnl_Id="26">
+<LocList>
+<Loc EndOffset="212" SrcFileId="2" StartOffset="200"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="model.User.java" Intrnl_Id="27">
+<LocList>
+<Loc EndOffset="212" SrcFileId="2" StartOffset="200"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="38" HierarchyLvlTypeId="4" Intrnl_Id="28" Name="setName">
+<Header>
+<Loc EndOffset="254" SrcFileId="2" StartOffset="222"/>
+</Header>
+<LocList>
+<Loc EndOffset="281" SrcFileId="2" StartOffset="222"/>
+</LocList>
+<StmntSeq Intrnl_Id="29">
+<LocList>
+<Loc EndOffset="277" SrcFileId="2" StartOffset="260"/>
+</LocList>
+<BasicStmnt CovItemId="S2" CovItemPrefix="model.User.java" Intrnl_Id="30">
+<LocList>
+<Loc EndOffset="277" SrcFileId="2" StartOffset="260"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="39" HierarchyLvlTypeId="4" Intrnl_Id="31" Name="getAddress">
+<Header>
+<Loc EndOffset="313" SrcFileId="2" StartOffset="287"/>
+</Header>
+<LocList>
+<Loc EndOffset="338" SrcFileId="2" StartOffset="287"/>
+</LocList>
+<StmntSeq Intrnl_Id="32">
+<LocList>
+<Loc EndOffset="334" SrcFileId="2" StartOffset="319"/>
+</LocList>
+<BasicStmnt CovItemId="S3" CovItemPrefix="model.User.java" Intrnl_Id="33">
+<LocList>
+<Loc EndOffset="334" SrcFileId="2" StartOffset="319"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="40" HierarchyLvlTypeId="4" Intrnl_Id="34" Name="setAddress">
+<Header>
+<Loc EndOffset="382" SrcFileId="2" StartOffset="344"/>
+</Header>
+<LocList>
+<Loc EndOffset="415" SrcFileId="2" StartOffset="344"/>
+</LocList>
+<StmntSeq Intrnl_Id="35">
+<LocList>
+<Loc EndOffset="411" SrcFileId="2" StartOffset="388"/>
+</LocList>
+<BasicStmnt CovItemId="S4" CovItemPrefix="model.User.java" Intrnl_Id="36">
+<LocList>
+<Loc EndOffset="411" SrcFileId="2" StartOffset="388"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="41" HierarchyLvlTypeId="4" Intrnl_Id="37" Name="getAge">
+<Header>
+<Loc EndOffset="440" SrcFileId="2" StartOffset="421"/>
+</Header>
+<LocList>
+<Loc EndOffset="461" SrcFileId="2" StartOffset="421"/>
+</LocList>
+<StmntSeq Intrnl_Id="38">
+<LocList>
+<Loc EndOffset="457" SrcFileId="2" StartOffset="446"/>
+</LocList>
+<BasicStmnt CovItemId="S5" CovItemPrefix="model.User.java" Intrnl_Id="39">
+<LocList>
+<Loc EndOffset="457" SrcFileId="2" StartOffset="446"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="42" HierarchyLvlTypeId="4" Intrnl_Id="40" Name="setAge">
+<Header>
+<Loc EndOffset="494" SrcFileId="2" StartOffset="467"/>
+</Header>
+<LocList>
+<Loc EndOffset="519" SrcFileId="2" StartOffset="467"/>
+</LocList>
+<StmntSeq Intrnl_Id="41">
+<LocList>
+<Loc EndOffset="515" SrcFileId="2" StartOffset="500"/>
+</LocList>
+<BasicStmnt CovItemId="S6" CovItemPrefix="model.User.java" Intrnl_Id="42">
+<LocList>
+<Loc EndOffset="515" SrcFileId="2" StartOffset="500"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="43" HierarchyLvlTypeId="4" Intrnl_Id="43" Name="getUniversity">
+<Header>
+<Loc EndOffset="554" SrcFileId="2" StartOffset="525"/>
+</Header>
+<LocList>
+<Loc EndOffset="582" SrcFileId="2" StartOffset="525"/>
+</LocList>
+<StmntSeq Intrnl_Id="44">
+<LocList>
+<Loc EndOffset="578" SrcFileId="2" StartOffset="560"/>
+</LocList>
+<BasicStmnt CovItemId="S7" CovItemPrefix="model.User.java" Intrnl_Id="45">
+<LocList>
+<Loc EndOffset="578" SrcFileId="2" StartOffset="560"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="44" HierarchyLvlTypeId="4" Intrnl_Id="46" Name="setUniversity">
+<Header>
+<Loc EndOffset="632" SrcFileId="2" StartOffset="588"/>
+</Header>
+<LocList>
+<Loc EndOffset="671" SrcFileId="2" StartOffset="588"/>
+</LocList>
+<StmntSeq Intrnl_Id="47">
+<LocList>
+<Loc EndOffset="667" SrcFileId="2" StartOffset="638"/>
+</LocList>
+<BasicStmnt CovItemId="S8" CovItemPrefix="model.User.java" Intrnl_Id="48">
+<LocList>
+<Loc EndOffset="667" SrcFileId="2" StartOffset="638"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+</TestSessionContainer>
